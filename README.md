@@ -4,14 +4,14 @@
 ### Usage
 
 ```
-musps/action-deployer-php@master
+tvthu/action-deployer-php@master
 ```
 
 ### Example
 
 ```yaml
 - name: Deploy to prod server
-  uses: musps/action-deployer-php@master
+  uses: tvthu/action-deployer-php@master
   with:
     args: deploy prod
    env:
@@ -44,7 +44,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Deploy
-        uses: musps/action-deployer-php@master
+        uses: tvthu/action-deployer-php@master
         with:
           args: deploy prod
         env:
